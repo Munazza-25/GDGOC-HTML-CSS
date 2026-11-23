@@ -1,0 +1,135 @@
+
+/* General Styling */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+}
+
+/* Form Container */
+.form-container {
+    background-color: white;
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.form-container h1 {
+    color: #263b55;
+}
+
+.form-container p {
+    color: #666666;
+}
+
+/* Form Groups */
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* Labels */
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+/* Input Fields */
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+/* Radio Buttons */
+.form-group input[type="radio"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+/* Checkboxes */
+.form-group input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+/* Dropdown Menu */
+.form-group select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    font-size: 14px;
+    background-color: white;
+}
+
+/* Textarea */
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    resize: vertical;
+}
+
+/* Form Buttons */
+.form-buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.form-buttons button {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.form-buttons button[type="submit"] {
+    background-color: #315b85;
+    color: white;
+}
+
+.form-buttons button[type="reset"] {
+    background-color: #dddddd;
+    color: #333333;
+}
+
+/* Fieldset and Legend */
+fieldset {
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: left;
+}
+
+legend {
+    font-weight: bold;
+    color: #315b85;
+    padding: 0 10px;
+}
+
+/* Button Hover Effect */
+.form-buttons button[type="submit"]:hover {
+    background-color: #244464;
+}
+
+.form-buttons button[type="reset"]:hover {
+    background-color: #c5c5c5;
+}

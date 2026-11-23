@@ -1,0 +1,83 @@
+
+/* General Page Styling */
+body {
+    background-color: #d9af9d;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Center the Profile Card */
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Profile Card Design */
+.profile-card {
+    background-color: rgb(249, 251, 252);
+    width: 350px;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Profile Picture */
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #dbeafe;
+    margin-bottom: 15px;
+}
+
+/* Name */
+.profile-card h1 {
+    color: #1e293b;
+    font-size: 26px;
+    margin-bottom: 5px;
+}
+
+/* Role */
+.profile-card h3 {
+    color: #4285f4;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+/* Biography */
+.bio {
+    color: #0f0f0f;
+    font-size: 14px;
+    line-height: 1.7;
+    margin: 15px 0;
+}
+
+/* Social Links */
+.social-links {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+/* Link Styling */
+.social-links a {
+    text-decoration: none;
+    color: rgb(250, 251, 252);
+    background-color: #84a6e1;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 13px;
+    transition: 0.3s;
+}
+
+/* Hover Effect */
+.social-links a:hover {
+    background-color: #df82c1;
+}
